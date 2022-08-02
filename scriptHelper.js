@@ -79,11 +79,13 @@ async function myFetch() {
 
         });
     return planetsReturned;
+
 }
 
 function pickPlanet(planets) {
     let idx = Math.floor(Math.random() * planets.length);
     return planets[idx];
+
 }
 
 module.exports.addDestinationInfo = addDestinationInfo;

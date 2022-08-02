@@ -34,4 +34,5 @@ window.addEventListener("load", ()=> {
        addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl);
     })
    
+
 });
